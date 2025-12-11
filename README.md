@@ -14,27 +14,26 @@ The app includes:
  Export predictions as CSV
 
  Features:-
-Dataset Exploration
-
-Preview dataset
-View descriptive statistics
-Check for missing values
+Dataset Exploration,
+Preview dataset,
+View descriptive statistics,
+Check for missing values.
 
  Visualizations:-
-Year-wise Energy Consumption
-Month-wise Energy Consumption
-Energy Distribution Histogram
+Year-wise Energy Consumption,
+Month-wise Energy Consumption,
+Energy Distribution Histogram.
 
  LSTM Model Training:-
-Preprocessing & normalization
-Sequence creation (past 60 days → predict next day)
-Deep LSTM neural network
-Automatic training
+Preprocessing & normalization,
+Sequence creation (past 60 days → predict next day),
+Deep LSTM neural network,
+Automatic training.
 
  Forecasting:-
-Predicts the next 100 days of energy consumption
+Predicts the next 100 days of energy consumption.
 
 Displays:
-Actual Values
-Predicted Values
-Downloadable CSV results
+Actual Values,
+Predicted Values,
+Downloadable CSV results.
