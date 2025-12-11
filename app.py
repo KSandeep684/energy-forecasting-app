@@ -6,7 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 from keras.layers import Dense, Dropout, LSTM
 from keras.models import Sequential
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+
 
 # -----------------------------------------
 # FUNCTIONS
