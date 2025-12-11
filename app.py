@@ -5,13 +5,6 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from keras.layers import Dense, Dropout, LSTM
 from keras.models import Sequential
-
-
-
-# -----------------------------------------
-# FUNCTIONS
-# -----------------------------------------
-
 def load_dataset(uploaded):
     df = pd.read_csv(uploaded)
     return df
@@ -115,10 +108,6 @@ def train_lstm(df):
     st.dataframe(result_df)
 
     return result_df
-
-# -----------------------------------------
-# STREAMLIT UI
-# -----------------------------------------
 
 st.title("⚡ Energy Forecasting Dashboard (LSTM + Visualizations)")
 
